@@ -1,0 +1,24 @@
+.p_detail {
+    .slick-dots {
+        bottom: 8px !important;
+
+        li {
+            margin: 0;
+
+            button:before {
+                color: #fff;
+                font-size: 8px;
+            }
+
+            &.slick-active button:before {
+                opacity: .75;
+                color: #fff;
+            }
+        }
+
+        
+
+    }
+
+   
+}
