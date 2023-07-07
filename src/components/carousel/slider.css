@@ -1,0 +1,14 @@
+.p_detail .p_slider .slick-dots {
+    bottom: 8px !important;
+}
+.p_detail .p_slider .slick-dots li {
+    margin: 0;
+}
+.p_detail .p_slider .slick-dots li button:before {
+    color: #fff;
+    font-size: 8px;
+}
+.p_detail .p_slider .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: #fff;
+}

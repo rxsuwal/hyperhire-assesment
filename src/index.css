@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  max-width: 750px;
+  margin: auto;
+  border: 1px dark solid;
+  font-family: 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.com_bg-white {
+  background-color: #fff;
+}
+
+.com_text-light {
+  color: #919eb6;
+}
+
+.com_btn {
+  border: none;
+  background: none;
+}
+
+.com_btn-sm {
+  display: inline-flex;
+  padding: 4px 12px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.com_btn-pill {
+  border-radius: 999px;
+}
+
+.com_btn-light {
+  border: 0.5px solid var(--n-3, #ced3de);
+  background: var(--n-1, #f7f8fa);
+  color: #5a6b87;
+}
+
+.com_btn-success {
+  background-color: #01b99f;
+  color: #fff;
+}
+
+.com_img-cover {
+  object-fit: cover;
+}
+
+.com_img-contain {
+  object-fit: contain;
+}
+
+.com_img-14 {
+  height: 14px;
+  width: 14px;
+}
+
+.com_img-24 {
+  height: 24px;
+  width: 24px;
+}
+
+.com_img-34 {
+  height: 34px;
+  width: 34px;
+}
+
+.com_img-max-h-450{
+  max-height:450px;
+}
+
+.com_pg_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+}

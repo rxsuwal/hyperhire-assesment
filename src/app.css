@@ -1,0 +1,102 @@
+.p_content_header {
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_content_header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.p_content_body {
+    padding: 0 16px;
+    color: #1d232b;
+}
+.p_content_body .title {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.p_content_body .content {
+    font-size: 12px;
+    font-weight: 500;
+}
+.p_content_body .tags {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 4px;
+}
+.p_content_footer .actions {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 8px 0;
+    border-bottom: 1px solid #edeef3;
+}
+.p_content_footer .post_comments-thread {
+    padding: 0 16px;
+}
+.p_content_footer .post_comments-thread .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.p_content_footer .post_comments-thread .head .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+.p_content_footer .post_comments-thread .content {
+    padding-left: 42px;
+    padding-right: 16px;
+}
+.p_content_footer .post_comments-thread .content .actions {
+    border-bottom: none;
+}
+.p_detail .actions .com_btn {
+    color: #919eb6;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-between;
+}
+.p_detail .comment_form_input {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    border-top: 1px solid #edeef3;
+}
+.p_detail .comment_form_input input {
+    border: none;
+    flex-grow: 1;
+    padding: 6px 8px;
+    outline: none;
+}
+.p_detail .comment_form_input input::placeholder {
+    color: #afb9ca;
+}
+.p_detail .comment_form_input button {
+    color: #afb9ca;
+}
+.p_detail .com_pg_header .title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:500px) {
+    .p_slider img{
+        object-fit: cover;
+    }
+}
+
+
