@@ -41,7 +41,7 @@ p {
   padding: 4px 12px;
   align-items: center;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .com_btn-pill {
@@ -49,8 +49,8 @@ p {
 }
 
 .com_btn-light {
-  border: 0.5px solid var(--n-3, #ced3de);
-  background: var(--n-1, #f7f8fa);
+  border: 0.5px solid #ced3de;
+  background: #f7f8fa;
   color: #5a6b87;
 }
 
@@ -82,8 +82,8 @@ p {
   width: 34px;
 }
 
-.com_img-max-h-450{
-  max-height:450px;
+.com_img-max-h-450 {
+  max-height: 450px;
 }
 
 .com_pg_header {

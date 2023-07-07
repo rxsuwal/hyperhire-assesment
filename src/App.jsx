@@ -24,7 +24,7 @@ function App() {
             </a>
             <div>
               <div>
-                <span>안녕 나 응애</span>
+                <strong>안녕 나 응애</strong>
                 <img className='com_img-14' src="./assets/icon/tick.png" style={{ margin: "0 4px" }} alt="verfied-icon" />
                 <small className='com_text-light'>1일전</small>
               </div>
