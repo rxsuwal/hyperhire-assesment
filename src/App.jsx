@@ -85,7 +85,7 @@ function App() {
             <img className='com_img-max-h-450 com_img-contain' src="/assets/img/1.jpg" alt="featured-img" />
           </SimpleSlider>
         </div>
-        F
+        
         <div className="p_content_footer">
           <div className="actions">
             <button className='p_detail com_btn'>
